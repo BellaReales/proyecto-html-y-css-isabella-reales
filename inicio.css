@@ -29,7 +29,6 @@ body {
     max-width: 400px;
     padding: 20px;
     background-color: #d1d1d1;
-    border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -63,7 +62,6 @@ input[type="text"], input[type="password"] {
     width: 96%;
     padding: 10px;
     border: 1px solid #bebebe;
-    border-radius: 5px;
     font-size: 16px;
     background-color: #f9f9f9;
     color: #333;
@@ -97,7 +95,6 @@ button {
     background-color: #000000;
     color: #fff;
     border: none;
-    border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
