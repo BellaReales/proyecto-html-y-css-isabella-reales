@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Cuenta</title>
+    <link rel="stylesheet" href="crear.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra superior con degradado y logo -->
+    <header>
+        <div class="logo-container">
+            <img src="imagenes/logo avion.png" alt="Logo de la tienda" class="logo">
+        </div>
+    </header>
+
+    <!-- Formulario de crear cuenta -->
+    <div class="form-container">
+        <h2 >Crear cuenta</h2>
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="input-group">
+                <label for="id">Identificación</label>
+                <input type="text" id="id" name="id" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="phone">Teléfono</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="input-group">
+                <label for="city">Ciudad</label>
+                <select id="city" name="city" required>
+                    <option value="" disabled selected>Selecciona una ciudad</option>
+                    <option value="ciudad1">Bogota</option>
+                    <option value="ciudad2">Medellin</option>
+                    <option value="ciudad3">Cali</option>
+                    <option value="ciudad4">Barranquilla</option>
+                </select>
+            </div>
+
+            <button type="submit" class="submit-btn">Guardar</button>
+        </form>
+    </div>
+</body>
+</html>
