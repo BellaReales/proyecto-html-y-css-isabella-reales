@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('imagenes/nubes or.gif');
+    background-image: url('imagenes/avion oficial.jpg');
     background-size: cover;  
     background-position: center;  
     /* background-repeat: no-repeat;   */
@@ -21,14 +21,16 @@ body {
     margin-top: -5%;
     text-shadow: 1px 1px 2px rgb(51, 51, 51);
 }
+.dicho {
+    margin-top: -20%;
+}
 
 
 .login-container {
-    width: 100%;
+    width: 80%;
     max-width: 400px;
-    padding: 20px;
+    padding: 14px;
     background-color: #d1d1d1;
-    border-radius: 8px;
     box-shadow: 0 4px 10px rgba(51, 50, 50, 51);
 }
 
@@ -38,7 +40,7 @@ body {
 }
 
 .logo {
-    width: 120px;
+    width: 200px;
     margin-bottom: 20px;
 }
 
@@ -62,7 +64,6 @@ input[type="text"], input[type="password"] {
     width: 96%;
     padding: 10px;
     border: 1px solid #bebebe;
-    border-radius: 5px;
     font-size: 16px;
     background-color: #f9f9f9;
     color: #333;
@@ -70,7 +71,7 @@ input[type="text"], input[type="password"] {
 }
 
 input[type="text"]:focus, input[type="password"]:focus {
-    border-color: #830000;
+    border-color: #dba100;
     outline: none;
 }
 .recordar-Caja {
@@ -79,7 +80,7 @@ input[type="text"]:focus, input[type="password"]:focus {
     justify-content: start;
     margin-bottom: 20px;
     font-size: 14px;
-    accent-color: #810000;
+    accent-color: #a70000;
     cursor: pointer;
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
@@ -93,17 +94,16 @@ input[type="text"]:focus, input[type="password"]:focus {
 button {
     width: 100%;
     padding: 12px;
-    background-color: #000000;
+    background-color: #ebaf0a;
     color: #fff;
     border: none;
-    border-radius: 5px;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #8a0900;
+    background-color: #000000;
 }
 .link {
     font-size: 14px;
