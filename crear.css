@@ -10,9 +10,9 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Barra superior con logo */
+
 header {
-    background: linear-gradient(to right, #000000, #505050); /* Degradado */
+    background: linear-gradient(to right, #000000, #505050); 
     padding: 15px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(51, 51, 51, 51);
@@ -23,7 +23,7 @@ header {
     max-width: 150px;
 }
 
-/* Contenedor del formulario */
+
 .form-container {
     background-color: rgb(0, 0, 0);
     width: 90%;
@@ -39,7 +39,7 @@ h2 {
     color: #ffffff;
 }
 
-/* Estilos del formulario */
+
 .input-group {
     margin-bottom: 15px;
 }
@@ -60,7 +60,7 @@ input, select {
 }
 
 select {
-    appearance: none; /* Elimina la flecha por defecto en algunos navegadores */
+    appearance: none; 
     background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"%3E%3Cpath fill="none" stroke="%23333" stroke-width="2" d="M5 7l5 5 5-5"%3E%3C/path%3E%3C/svg%3E'); 
     background-repeat: no-repeat;
     background-position: right 10px center;
