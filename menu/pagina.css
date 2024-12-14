@@ -6,7 +6,9 @@
 
 body {
     font-family: "Oswald", sans-serif;
-    background-color: #f4f4f4;
+    background-image: url(/imagenes/nubes\ or.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -31,12 +33,13 @@ header {
 h1 {
     text-align: center;
     margin-bottom: 10px;
-    color: #000000;
+    color: #ffffff;
     margin-top: 2%;
 }
 
 .text {
     text-align: center;
+    color: #ffffff;
 }
 
 
@@ -56,9 +59,17 @@ h1 {
     padding: 20px;
     border-radius: 10px;
     width: 400px;          
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 8px rgba(1, 1, 1, 1.1); 
     text-align: center;     
+    gap: 15px;
   }
+
+  .imagen {
+    width: 80px; /* Ajusta el tamaño de la imagen */
+    height: 50px; /* Ajusta el tamaño de la imagen */
+    object-fit: cover; /* Asegura que la imagen se recorte adecuadamente si es necesario */
+}
+
   
   .bloque h2 {
     font-size: 24px;
@@ -73,15 +84,15 @@ h1 {
   .boton {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #cc9c00;
-    color: white;
+    background-color: #e6b000;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 10px;
     transition: all 0.3s ease;
   }
   
   .boton:hover {
-    background-color: #000000;
+    background-color: #181818;
     transform: scale(1.1);
   }
   
