@@ -5,7 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('imagenes/avion oficial.jpg');
+    background-image: url('/imagenes/avion oficial.jpg');
     background-size: cover;  
     background-position: center;  
     /* background-repeat: no-repeat;   */
@@ -91,20 +91,25 @@ input[type="text"]:focus, input[type="password"]:focus {
 
 
 
-button {
-    width: 100%;
-    padding: 12px;
-    background-color: #ebaf0a;
-    color: #fff;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
+.boton {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #e6b000;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+  
+  .boton:hover {
+    background-color: #181818;
+    transform: scale(1.1);
+  }
+  
+  .boton:active {
+    background-color: #ffffff;
+  }
 
-button:hover {
-    background-color: #000000;
-}
 .link {
     font-size: 14px;
     color: #636363;

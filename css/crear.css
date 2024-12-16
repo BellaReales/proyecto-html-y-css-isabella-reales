@@ -67,20 +67,24 @@ select {
     background-size: 15px;
 }
 
-button {
-    background-color: #c99300;
-    color: rgb(255, 255, 255);
-    padding: 12px;
-    width: 100%;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 15px;
-}
-
-button:hover {
-    background-color: #a80000;
-}
+.boton {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #e6b000;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 12px;
+    transition: all 0.3s ease;
+  }
+  
+  .boton:hover {
+    background-color: #181818;
+    transform: scale(1.1);
+  }
+  
+  .boton:active {
+    background-color: #ffffff;
+  }
 
 /* Estilos responsivos */
 @media (max-width: 600px) {

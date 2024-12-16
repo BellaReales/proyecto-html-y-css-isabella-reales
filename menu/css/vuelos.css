@@ -1,0 +1,159 @@
+
+
+/* Body styles */
+body {
+    font-family: "Oswald", sans-serif;
+    background-color: #f4f4f9;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Barra superior */
+header {
+    background: linear-gradient(to right, #000000, #505050); /* Degradado */
+    
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(51, 51, 51, 51);
+}
+
+.logo {
+    width: 120%;
+    max-width: 150px;
+}
+
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Perfil*/
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile-link {
+    color: #d39000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+
+/* AL seleccionar los vuelos disponibles ..  */
+.flights-section {
+    margin-top: 30px;
+}
+
+.flights-section h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de las tarjetas de vuelo */
+.flight-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/* Estilo */
+.flight-card {
+    width: 280px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+    padding: 10px;
+}
+
+.flight-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flight-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.flight-details {
+    text-align: left;
+    padding: 10px;
+}
+
+
+.date {
+    font-size: 10px;
+    margin-top: 15px;
+}
+.hour {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.duration {
+    font-size: 14px;
+    color: #555;
+}
+
+.flight-text {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #777;
+}
+
+.status {
+    font-size: 22px;
+    color: #dba800;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.place {
+    font-size: 13px;
+    color: #555;
+}
+
+.boton {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 13px;
+    transition: all 0.3s ease;
+  }
+  
+  .boton:hover {
+    background-color: #bd9100;
+    color: #000000;
+    transform: scale(1.1);
+  }
+  
+  .boton:active {
+    background-color: #ffffff;
+  }
+
+
